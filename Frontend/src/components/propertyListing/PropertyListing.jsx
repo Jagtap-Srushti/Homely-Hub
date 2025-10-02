@@ -1,6 +1,7 @@
 import React from 'react'
 import PropertyImg from './PropertyImg'
 import "../../css/PropertyListing.css"
+import PropertyAmenities from './PropertyAmenities'
 
 const PropertyListing = () => {
   return (
@@ -19,6 +20,7 @@ const PropertyListing = () => {
                     <br/><br/> Max number of guest:6
                 </p>
                 <hr/>
+                <PropertyAmenities amenities={["Wifi","Kitchen","Pool","AC"]}/>
 
             </div>
         </div>
